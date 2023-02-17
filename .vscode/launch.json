@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "probe-rs-debug",
+      "request": "launch",
+      "name": "probe-rs",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "probe-rs-debugger",
+      "runtimeArgs": ["debug"],
+      "chip": "RP2040",
+      "preLaunchTask": "${defaultBuildTask}",
+      "flashingConfig": {
+        "flashingEnabled": true,
+        "resetAfterFlashing": true,
+        "haltAfterReset": false
+      },
+      "coreConfigs": [
+        {
+          "programBinary": "${workspaceFolder}/target/thumbv6m-none-eabi/debug/firmware",
+          "svdFile": "${workspaceFolder}/.vscode/rp2040.svd"
+        }
+      ],
+      "consoleLogLevel": "Debug",
+      "presentation": {
+				"reveal": "silent",
+				"revealProblems": "onProblem",
+			}
+    },
+  ]
+}
