@@ -3,7 +3,7 @@
 [![docs.rs](https://docs.rs/FIXME/badge.svg)](https://docs.rs/FIXME)
 [![crates.io](https://img.shields.io/crates/v/FIXME.svg)](https://crates.io/crates/FIXME)
 [![Download numbers](https://img.shields.io/crates/d/FIXME.svg)](https://crates.io/crates/FIXME)
-[![dependency status](https://deps.rs/crate/FIXME/0.1.0/status.svg)](https://deps.rs/crate/FIXME/0.1.0)
+[![dependency status](https://deps.rs/crate/FIXME/latest/status.svg)](https://deps.rs/crate/FIXME)
 
 
 # `FIXME`
