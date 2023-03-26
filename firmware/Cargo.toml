@@ -23,7 +23,7 @@ default = []
 cortex-m = "0.7.7"
 cortex-m-rt = "0.7.3"
 embedded-hal = "0.2.7"
-rp-pico = "0.5.0"
+rp-pico = "0.7.0"
 
 
 [profile.dev]
